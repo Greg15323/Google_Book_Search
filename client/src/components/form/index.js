@@ -5,14 +5,14 @@ import React from "react";
      <form>
        <div className="form-group">
          <label htmlFor="Query">
-           <strong>Book</strong>
+           <strong></strong>
          </label>
          <input
            className="form-control"
            id="Title"
            type="text"
            value={q}
-           placeholder="The Hobbit"
+           placeholder="Harry Potter"
            name="q"
            onChange={handleInputChange}
            required
@@ -22,7 +22,7 @@ import React from "react";
          <button
            onClick={handleFormSubmit}
            type="submit"
-           className="btn btn-lg btn-danger float-right"
+           className="btn btn-lg btn-dark float-right"
          >
            Search
          </button>
